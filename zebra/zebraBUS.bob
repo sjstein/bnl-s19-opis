@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>350</width>
+  <height>740</height>
+  <background_color>
+    <color red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>Sys1</name>
+    <width>175</width>
+    <height>560</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>bmSys1_1</name>
+      <pv_name>$(P)SYS_STAT1LO</pv_name>
+      <width>120</width>
+      <height>261</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>0: DISCONNECT</text>
+        <text>1: IN1_TTL</text>
+        <text>2: IN1_NIM</text>
+        <text>3: IN1_LVDS</text>
+        <text>4: IN2_TTL</text>
+        <text>5: IN2_NIM</text>
+        <text>6: IN2_LVDS</text>
+        <text>7: IN3_TTL</text>
+        <text>8: IN3_OC</text>
+        <text>9: IN3_LVDS</text>
+        <text>10: IN4_TTL</text>
+        <text>11: IN4_CMP</text>
+        <text>12: IN4_PECL</text>
+        <text>13: IN5_ENCA</text>
+        <text>14: IN5_ENCB</text>
+        <text>15: IN5_ENCZ</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>bmSys1_2</name>
+      <pv_name>$(P)SYS_STAT1HI</pv_name>
+      <y>255</y>
+      <width>120</width>
+      <height>261</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>16: IN5_CONN</text>
+        <text>17: IN6_ENCA</text>
+        <text>18: IN6_ENCB</text>
+        <text>19: IN6_ENCZ</text>
+        <text>20: IN6_CONN</text>
+        <text>21: IN7_ENCA</text>
+        <text>22: IN7_ENCB</text>
+        <text>23: IN7_ENCZ</text>
+        <text>24: IN7_CONN</text>
+        <text>25: IN8_ENCA</text>
+        <text>26: IN8_ENCB</text>
+        <text>27: IN8_ENCZ</text>
+        <text>28: IN8_CONN</text>
+        <text>29: PC_ARM</text>
+        <text>30: PC_GATE</text>
+        <text>31: PC_PULSE</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Sys2</name>
+    <x>174</x>
+    <width>175</width>
+    <height>560</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>bmSys2_1</name>
+      <pv_name>$(P)SYS_STAT2LO</pv_name>
+      <width>120</width>
+      <height>261</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>32: AND1</text>
+        <text>33: AND2</text>
+        <text>34: AND3</text>
+        <text>35: AND4</text>
+        <text>36: OR1</text>
+        <text>37: OR2</text>
+        <text>38: OR3</text>
+        <text>39: OR4</text>
+        <text>40: GATE1</text>
+        <text>41: GATE2</text>
+        <text>42: GATE3</text>
+        <text>43: GATE4</text>
+        <text>44: DIV1_OUTD</text>
+        <text>45: DIV2_OUTD</text>
+        <text>46: DIV3_OUTD</text>
+        <text>47: DIV4_OUTD</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>bmSys2_2</name>
+      <pv_name>$(P)SYS_STAT2HI</pv_name>
+      <y>255</y>
+      <width>135</width>
+      <height>261</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>48: DIV1_OUTN</text>
+        <text>49: DIV2_OUTN</text>
+        <text>50: DIV3_OUTN</text>
+        <text>51: DIV4_OUTN</text>
+        <text>52: PULSE1</text>
+        <text>53: PULSE2</text>
+        <text>54: PULSE3</text>
+        <text>55: PULSE4</text>
+        <text>56: QUAD_OUTA</text>
+        <text>57: QUAD_OUTB</text>
+        <text>58: CLOCK_1KHZ</text>
+        <text>59: CLOCK_1MHZ</text>
+        <text>60: SOFT_IN1</text>
+        <text>61: SOFT_IN2</text>
+        <text>62: SOFT_IN3</text>
+        <text>63: SOFT_IN4</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Error State:</name>
+    <y>552</y>
+    <width>349</width>
+    <height>187</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor</name>
+      <pv_name>$(P)SYS_STATERR</pv_name>
+      <width>307</width>
+      <height>145</height>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="165" green="42" blue="42">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Major" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>PULSE1 TRIG WHILE ACTIVE</text>
+        <text>PULSE2 TRIG WHILE ACTIVE</text>
+        <text>PULSE3 TRIG WHILE ACTIVE</text>
+        <text>PULSE4 TRIG WHILE ACTIVE</text>
+        <text>PC BUFF OVERFLOW</text>
+        <text>ERR5</text>
+        <text>ERR6</text>
+        <text>ERR7</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>Byte Monitor_1</name>
+    <x>465</x>
+    <y>38</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+</display>

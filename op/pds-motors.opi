@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <actions hook="false" hook_all="false" />
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <background_color>
+    <color name="Screen Background" red="240" green="240" blue="240" />
+  </background_color>
+  <boy_version>5.1.0</boy_version>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <grid_space>5</grid_space>
+  <height>450</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+    <Mtr>Mtr</Mtr>
+  </macros>
+  <name>NYX PDS Motors</name>
+  <rules />
+  <scripts />
+  <show_close_button>true</show_close_button>
+  <show_edit_range>true</show_edit_range>
+  <show_grid>true</show_grid>
+  <show_ruler>true</show_ruler>
+  <snap_to_geometry>true</snap_to_geometry>
+  <widget_type>Display</widget_type>
+  <width>1080</width>
+  <wuid>52f5b9fd:14150e27666:-56aa</wuid>
+  <x>-1</x>
+  <y>-1</y>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>50</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <TITLE>NYX Photon Delivery System Motors</TITLE>
+    </macros>
+    <name>Linking Container</name>
+    <opi_file>../../common/title_1080.opi</opi_file>
+    <resize_behaviour>2</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>1080</width>
+    <wuid>878d51f:175a9c8fdb3:-7b66</wuid>
+    <x>0</x>
+    <y>0</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.tab" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <active_tab>0</active_tab>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <height>350</height>
+    <horizontal_tabs>true</horizontal_tabs>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <minimum_tab_height>10</minimum_tab_height>
+    <name>Controllers</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tab_0_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_0_background_color>
+    <tab_0_enabled>true</tab_0_enabled>
+    <tab_0_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_0_font>
+    <tab_0_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_0_foreground_color>
+    <tab_0_icon_path></tab_0_icon_path>
+    <tab_0_title>Galil #7 (Mir:1)</tab_0_title>
+    <tab_1_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_1_background_color>
+    <tab_1_enabled>true</tab_1_enabled>
+    <tab_1_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_1_font>
+    <tab_1_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_1_foreground_color>
+    <tab_1_icon_path></tab_1_icon_path>
+    <tab_1_title>Galil #8 (Slt:MB)</tab_1_title>
+    <tab_2_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_2_background_color>
+    <tab_2_enabled>true</tab_2_enabled>
+    <tab_2_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_2_font>
+    <tab_2_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_2_foreground_color>
+    <tab_2_icon_path></tab_2_icon_path>
+    <tab_2_title>Galil #9 (BPM:2, Mono Bragg)</tab_2_title>
+    <tab_3_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_3_background_color>
+    <tab_3_enabled>true</tab_3_enabled>
+    <tab_3_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_3_font>
+    <tab_3_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_3_foreground_color>
+    <tab_3_icon_path></tab_3_icon_path>
+    <tab_3_title>Galil #10 (Mono)</tab_3_title>
+    <tab_4_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_4_background_color>
+    <tab_4_enabled>true</tab_4_enabled>
+    <tab_4_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_4_font>
+    <tab_4_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_4_foreground_color>
+    <tab_4_icon_path></tab_4_icon_path>
+    <tab_4_title>Galil #11 (BPM:1, BM:1, Slt:WB)</tab_4_title>
+    <tab_5_background_color>
+      <color red="240" green="240" blue="240" />
+    </tab_5_background_color>
+    <tab_5_enabled>true</tab_5_enabled>
+    <tab_5_font>
+      <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+    </tab_5_font>
+    <tab_5_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_5_foreground_color>
+    <tab_5_icon_path></tab_5_icon_path>
+    <tab_5_title>Galil #0 (Test)</tab_5_title>
+    <tab_count>6</tab_count>
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Tabbed Container</widget_type>
+    <width>1010</width>
+    <wuid>-c3b4c52:175e347fd6e:-7250</wuid>
+    <x>35</x>
+    <y>60</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #7 (Mir:1)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-724b</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:7}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{Mir:1-Ax:Y}</Dev1>
+          <Temp1></Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{Mir:1-Ax:X}</Dev2>
+          <Temp2></Temp2>
+          <Sys3>XF:19IDC-OP</Sys3>
+          <Dev3>{Mir:1-Ax:P}</Dev3>
+          <Temp3></Temp3>
+          <Sys4>XF:19IDC-OP</Sys4>
+          <Dev4>{Mir:1-Ax:R}</Dev4>
+          <Temp4></Temp4>
+          <Sys5>XF:19IDC-OP</Sys5>
+          <Dev5>{Mir:1-Ax:Bnd1}</Dev5>
+          <Temp5></Temp5>
+          <Sys6>XF:19IDC-OP</Sys6>
+          <Dev6>{Mir:1-Ax:Bnd2}</Dev6>
+          <Temp6></Temp6>
+          <Sys7>XF:19IDC-OP</Sys7>
+          <Dev7>{BPM:3-Ax:X}</Dev7>
+          <Temp7></Temp7>
+          <Sys8>XF:19IDC-OP</Sys8>
+          <Dev8>{BPM:3-Ax:Y}</Dev8>
+          <Temp8></Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>18cb9812:175e3641063:-6c83</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #8 (Slt:MB)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-7242</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:8}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{Slt:MB-Ax:T}</Dev1>
+          <Temp1></Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{Slt:MB-Ax:B}</Dev2>
+          <Temp2></Temp2>
+          <Sys3>XF:19IDC-OP</Sys3>
+          <Dev3>{Slt:MB-Ax:I}</Dev3>
+          <Temp3></Temp3>
+          <Sys4>XF:19IDC-OP</Sys4>
+          <Dev4>{Slt:MB-Ax:O}</Dev4>
+          <Temp4></Temp4>
+          <Sys5></Sys5>
+          <Dev5></Dev5>
+          <Temp5></Temp5>
+          <Sys6></Sys6>
+          <Dev6></Dev6>
+          <Temp6></Temp6>
+          <Sys7></Sys7>
+          <Dev7></Dev7>
+          <Temp7></Temp7>
+          <Sys8></Sys8>
+          <Dev8></Dev8>
+          <Temp8></Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>18cb9812:175e3641063:-6e32</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #9 (BPM:2, Mono Bragg)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-7241</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:9}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{BPM:2-Ax:X}</Dev1>
+          <Temp1></Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{BPM:2-Ax:Y}</Dev2>
+          <Temp2></Temp2>
+          <Sys3>XF:19IDC-OP</Sys3>
+          <Dev3>{Mono:DCM-Ax:B}</Dev3>
+          <Temp3></Temp3>
+          <Sys4></Sys4>
+          <Dev4></Dev4>
+          <Temp4></Temp4>
+          <Sys5></Sys5>
+          <Dev5></Dev5>
+          <Temp5></Temp5>
+          <Sys6></Sys6>
+          <Dev6></Dev6>
+          <Temp6></Temp6>
+          <Sys7></Sys7>
+          <Dev7></Dev7>
+          <Temp7></Temp7>
+          <Sys8></Sys8>
+          <Dev8></Dev8>
+          <Temp8></Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>18cb9812:175e3641063:-6fe1</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #10 (Mono)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-7240</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:10}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{Mono:DCM-Ax:Perp}</Dev1>
+          <Temp1></Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{Mono:DCM-Ax:Para}</Dev2>
+          <Temp2>$(Sys2)$(Dev2)T-I</Temp2>
+          <Sys3>XF:19IDC-OP</Sys3>
+          <Dev3>{Mono:DCM-Ax:P}</Dev3>
+          <Temp3>$(Sys3)$(Dev3)T-I</Temp3>
+          <Sys4>XF:19IDC-OP</Sys4>
+          <Dev4>{Mono:DCM-Ax:R}</Dev4>
+          <Temp4>$(Sys4)$(Dev4)T-I</Temp4>
+          <Sys5>XF:19IDC-OP</Sys5>
+          <Dev5>{Mono:DCM-Ax:Yaw}</Dev5>
+          <Temp5>$(Sys5)$(Dev5)T-I</Temp5>
+          <Sys6>XF:19IDC-OP</Sys6>
+          <Dev6>{Mono:DCM-Ax:Bnd1}</Dev6>
+          <Temp6></Temp6>
+          <Sys7>XF:19IDC-OP</Sys7>
+          <Dev7>{Mono:DCM-Ax:Bnd2}</Dev7>
+          <Temp7>$(Sys7)$(Dev7)T-I</Temp7>
+          <Sys8>XF:19IDC-OP</Sys8>
+          <Dev8>{Mono:DCM-Ax:Bnd}</Dev8>
+          <Temp8>$(Sys8)$(Dev8)T-I</Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>18cb9812:175e3641063:-7193</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #11 (BPM:1, BM:1, Slt:WB)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>false</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-723f</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:11}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{BPM:1-Ax:X}</Dev1>
+          <Temp1></Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{BPM:1-Ax:Y}</Dev2>
+          <Temp2></Temp2>
+          <Sys3>XF:19IDC-OP</Sys3>
+          <Dev3>{BM:1-Ax:X}</Dev3>
+          <Temp3></Temp3>
+          <Sys4>XF:19IDC-OP</Sys4>
+          <Dev4>{BM:1-Ax:Y}</Dev4>
+          <Temp4></Temp4>
+          <Sys5>XF:19IDC-OP</Sys5>
+          <Dev5>{Slt:WB-Ax:O}</Dev5>
+          <Temp5></Temp5>
+          <Sys6>XF:19IDC-OP</Sys6>
+          <Dev6>{Slt:WB-Ax:I}</Dev6>
+          <Temp6></Temp6>
+          <Sys7>XF:19IDC-OP</Sys7>
+          <Dev7>{Slt:WB-Ax:T}</Dev7>
+          <Temp7></Temp7>
+          <Sys8>XF:19IDC-OP</Sys8>
+          <Dev8>{Slt:WB-Ax:B}</Dev8>
+          <Temp8></Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>-c3b4c52:175e347fd6e:-7b65</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>323</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Galil #0 (Test)</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1008</width>
+      <wuid>-c3b4c52:175e347fd6e:-723e</wuid>
+      <x>1</x>
+      <y>1</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="Liberation Sans" height="12" style="0" pixels="true">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <group_name></group_name>
+        <height>300</height>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CntlSys>XF:19IDC-OP</CntlSys>
+          <CntlDev>{Galil:0}</CntlDev>
+          <Sys1>XF:19IDC-OP</Sys1>
+          <Dev1>{Test-Ax:E}</Dev1>
+          <Temp1>$(Sys1)$(Dev1)T-I</Temp1>
+          <Sys2>XF:19IDC-OP</Sys2>
+          <Dev2>{Test-Ax:F}</Dev2>
+          <Temp2>$(Sys2)$(Dev2)T-I</Temp2>
+          <Sys3></Sys3>
+          <Dev3></Dev3>
+          <Temp3></Temp3>
+          <Sys4>XF:19IDC-OP</Sys4>
+          <Dev4>{Test-Ax:XGap}</Dev4>
+          <Temp4></Temp4>
+          <Sys5>XF:19IDC-OP</Sys5>
+          <Dev5>{Test-Ax:XCtr}</Dev5>
+          <Temp5></Temp5>
+          <Sys6></Sys6>
+          <Dev6></Dev6>
+          <Temp6></Temp6>
+          <Sys7></Sys7>
+          <Dev7></Dev7>
+          <Temp7></Temp7>
+          <Sys8></Sys8>
+          <Dev8></Dev8>
+          <Temp8></Temp8>
+        </macros>
+        <name>Linking Container_1</name>
+        <opi_file>_galil_controller.opi</opi_file>
+        <resize_behaviour>2</resize_behaviour>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip></tooltip>
+        <visible>true</visible>
+        <widget_type>Linking Container</widget_type>
+        <width>1000</width>
+        <wuid>-c3b4c52:175e347fd6e:-7212</wuid>
+        <x>5</x>
+        <y>5</y>
+      </widget>
+    </widget>
+  </widget>
+</display>
